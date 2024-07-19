@@ -31,10 +31,13 @@ Restart-Computer
 
 
 # GPO creation and configuration
-After finishing the Script file, create a GPO for the appropriate Organizational Unit and name it as you want.
-Afterwards naviagte to the GPO script policies : Policies.Windows Settings.Scripts(Startup/Shutdown) and add a new startup file by browsing and choosing the first file we wrote earlier.
-Following the same steps as before add the second file to the GPO script policies.
-The last step is deploying the GPO. (This GPO will force computers into safe mode using script 2 and then the first script wil delete the files causing the issue)
+After finishing the Script file, create a GPO for the appropriate Organizational Unit and name it as you want.\\
+
+Afterwards naviagte to the GPO script policies : Policies.Windows Settings.Scripts(Startup/Shutdown) and add a new startup file by browsing and choosing the first file we wrote earlier.\\
+
+Following the same steps as before add the second file to the GPO script policies.\\
+
+The last step is deploying the GPO. (This GPO will force computers into safe mode using script 2 and then the first script wil delete the files causing the issue)\\
 
 
 #HOPE THIS HELPS PEOPLE! GIVE THIS SOLUTION A FEEDBACK
